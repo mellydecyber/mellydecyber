@@ -1,0 +1,23 @@
+node_modules
+.next
+out
+.env
+.env.local
+.DS_Store
+pnpm-lock.yaml
+npm-debug.log*
+
+# Logs
+logs
+*.log
+
+# Testing
+coverage
+
+# Editor directories
+.idea
+.vscode
+
+# Ignore sample media assets to keep repository text-only
+public/media/**/*.{png,jpg,jpeg,gif}
+docs/screenshots/**/*.{png,jpg,jpeg,gif}
